@@ -29,6 +29,6 @@ describe( 'the local repository', () => {
     chai.assert.isDirectory( './my-repository/.git/logs', 'no commits were found.  Use "git commit -m" followed by a message to create a commit' );
   } )
 
-  
+
 
 } )
